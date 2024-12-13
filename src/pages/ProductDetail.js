@@ -73,11 +73,11 @@ function ProductDetail() {
         <meta property="og:description" content={product?.description} />
         <meta property="og:image" content={product?.imageURL} />
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@MinhHieu454788" />
-        <meta name="twitter:title" content={product?.name} />
-        <meta name="twitter:description" content={product?.description} />
-        <meta name="twitter:image" content={product?.imageURL} />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content="@MinhHieu454788" />
+        <meta property="twitter:title" content={product?.name} />
+        <meta property="twitter:description" content={product?.description} />
+        <meta property="twitter:image" content={product?.imageURL} />
         <title>{product.name}</title>
       </Helmet>
       <div className="flex container">
